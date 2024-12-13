@@ -39,7 +39,7 @@
             <form id="tojoForm">
                 <section class="form-group">
                     <label>Nombre Completo <span class="required">*</span></label>
-                    <input type="text" name="nombreCompleto" required>
+                    <input type="text" name="nombreCompleto" pattern="([A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s(de|la|el|y)\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*|\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+(\s[A-ZÁÉÍÓÚÑ][a-záéíóúñÑ]+)*)+" required>
                 </section>
     
                 <section class="form-group">
@@ -54,7 +54,7 @@
     
                 <section class="form-group">
                     <label>Teléfono <span class="required">*</span></label>
-                    <input type="tel" name="telefono" pattern="[0-9]{9}" required>
+                    <input type="tel" name="telefono" pattern="(\+34)?[0-9]{9}" required>
                 </section>
     
                 <section class="form-group">

@@ -91,6 +91,10 @@ img{
     box-shadow: 0 0 20px var(--color-burdeo);
 }
 
+.container h1{
+    margin-bottom: 4vh;
+}
+
 .form-group {
     margin-bottom: 2vh;
 }
@@ -137,7 +141,6 @@ button:hover {
     border: 0.2vw solid #666;
     border-radius: 5px;
 }
-/**********/
 
 p{
     font-family: Arial, sans-serif;
@@ -165,7 +168,7 @@ h3{
 
     nav {
         flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        height: auto;
+        height: 20vh;
         overflow: hidden;
     }
 
