@@ -144,6 +144,12 @@ article {
 
 p{
     font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius: 20px;
+}
+
+button p{
+    background-color: rgba(0, 0, 139, 0);
 }
 
 li, p {
@@ -189,11 +195,16 @@ footer{
     }
 
     main{
-        height: 40vh;
+        height: 30vh;
     }
 
     article{
-        height: 40vh;
+        height: 30vh;
+    }
+
+    button{
+        width: 30vw;
+        height: 7vh;
     }
 
     h1{
