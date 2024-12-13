@@ -140,9 +140,9 @@ p{
 
 li, p {
     margin: 1vw;
-    color: #ffdfd0;
+    color: rgb(148, 4, 61);
     font-size: 1.7vw;
-    text-shadow: 2px 2px 4px black;
+
 }
 
 h2{
