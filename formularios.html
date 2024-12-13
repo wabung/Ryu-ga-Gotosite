@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franquicia Yakuza</title>
+    <link rel="icon" href="images/kiryu.png" type="image/png">
+    <link rel="stylesheet" href="styles/styles_formularios.css">
+</head>
+
+<body>
+
+    <nav>
+        <section class="paginas">
+            <a href="index.html"><img src="images/yakuza.png" id="title" alt="Logo de Yakuza"></a>
+        </section>
+        <section class="paginas">
+            <h1><a href="franquicia.html">Franquicia Yakuza</a></h1>
+        </section>
+        <section class="paginas">
+            <h1><a href="protas.html">Protagonistas</a></h1>
+        </section>
+        <section class="paginas">
+            <h1><a href="mecanicas.html">Mecánicas</a></h1>
+        </section>
+        <section class="paginas">
+            <h1><a href="formularios.html">Formulario</a></h1>
+        </section>
+    </nav>
+
+    <main id="principio">
+
+        <article class="container">
+
+            <img src="images/tojo.webp" alt="">
+    
+            <h1>Formulario de Reclutamiento del Clan Tojo</h1>
+            <form id="tojoForm">
+                <section class="form-group">
+                    <label>Nombre Completo <span class="required">*</span></label>
+                    <input type="text" name="nombreCompleto" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Nombre de Yakuza (Alias) <span class="required">*</span></label>
+                    <input type="text" name="nombreYakuza" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Email <span class="required">*</span></label>
+                    <input type="email" name="email" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Teléfono <span class="required">*</span></label>
+                    <input type="tel" name="telefono" pattern="[0-9]{9}" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Fecha de Nacimiento <span class="required">*</span></label>
+                    <input type="date" name="fechaNacimiento" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Distrito de Kamurocho Preferido <span class="required">*</span></label>
+                    <select name="district" required>
+                        <option value="">Selecciona un distrito</option>
+                        <option value="theater">Theater Square</option>
+                        <option value="champion">Champion District</option>
+                        <option value="tenkaichi">Tenkaichi Street</option>
+                        <option value="pink">Pink Street</option>
+                    </select>
+                </section>
+    
+                <section class="form-group">
+                    <label>Estilo de Lucha Principal <span class="required">*</span></label>
+                    <select name="estilo" required>
+                        <option value="">Selecciona un estilo</option>
+                        <option value="dragon">Dragon Style</option>
+                        <option value="beast">Beast Style</option>
+                        <option value="rush">Rush Style</option>
+                        <option value="brawler">Brawler Style</option>
+                    </select>
+                </section>
+    
+                <section class="form-group">
+                    <label>Tatuaje Actual (Descripción) <span class="required">*</span></label>
+                    <textarea name="tattoo" required></textarea>
+                </section>
+    
+                <section class="form-group">
+                    <label>Familia Yakuza Anterior <span class="required">*</span></label></label>
+                    <input type="text" name="anteriorFamilia" required>
+                </section>
+    
+                <section class="form-group">
+                    <label>Entrenador <span class="required">*</span></label>
+                    <select name="entrenador" required>
+                        <option value="">Selecciona un entrenador</option>
+                        <option value="komaki">Komaki</option>
+                        <option value="saigo">Saigo</option>
+                        <option value="nair">Nair</option>
+                        <option value="kamoji">Kamoji</option>
+                    </select>
+                </section>
+    
+                <section class="privacidad">
+                    <p>De conformidad con el Reglamento General de Protección de Datos (RGPD), le informamos que:</p>
+                    <ul>
+                        <li>Los datos personales proporcionados serán tratados por el Clan Tojo con la finalidad de gestionar su solicitud de reclutamiento.</li>
+                        <li>Sus datos se conservarán mientras mantenga su relación con el Clan Tojo y no solicite su supresión.</li>
+                        <li>Tiene derecho a acceder, rectificar, suprimir sus datos, así como otros derechos sobre los mismos.</li>
+                        <li>Puede consultar información adicional sobre nuestra política de privacidad en nuestra sede de Kamurocho.</li>
+                    </ul>
+                </section>
+    
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </article>
+        
+    </main>
+
+</body>
+
+</html>

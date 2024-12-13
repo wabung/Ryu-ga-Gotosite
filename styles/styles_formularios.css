@@ -75,64 +75,69 @@ main {
     height: auto;
 }
 
-article {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    width: 90vw;
-    background-color: white;
-    border-radius: 20px;
-    margin: 2vw;
+/************/
+
+img{
+    width: 10vw;
+    height: auto;
 }
 
-.combat{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 45vw;
-    height: 75vh;
-    background-color: wheat ;
-    border-radius: 20px;
+.container {
+    margin-top: 2vh;
+    width: 70vw;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5vw;
+    border-radius: 10px;
+    box-shadow: 0 0 20px var(--color-burdeo);
 }
 
-.juegos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 22vw;
+.form-group {
+    margin-bottom: 2vh;
 }
 
-video{
-    width: 30vw;
-    border-radius: 20px;
+label {
+    display: block;
+    margin-bottom: 1vh;
+    color: pink;
 }
 
-.bajo{
-    display: flex;
-    justify-content: space-evenly;
+input, select, textarea, button {
+    width: 100%;
+    max-width: 100%;
+    max-height: 40vh;
+    height: 5vh;
+    border: 1px solid var(--color-burdeo);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
 }
 
-.gif{
-    width: 20vw;
-    border-radius: 20px;
+.required {
+    color: red;
 }
 
-.gif2{
-    width: 35vw;
-    border-radius: 20px;
+button {
+    background: var(--color-burdeo);
+    color: white;
+    border: none;
+    height: 7vh;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease;
 }
 
-.misiones{
-    background-color: wheat;
-    border-radius: 20px;
-    width: 45vw;
-    justify-content: space-around;
+button:hover {
+    filter: brightness(0.8);
 }
+
+.privacidad {
+    padding: 5%;
+    border: 0.2vw solid #666;
+    border-radius: 5px;
+}
+/**********/
 
 p{
     font-family: Arial, sans-serif;
@@ -160,41 +165,8 @@ h3{
 
     nav {
         flex-direction: column; /* Cambiar a columna en pantallas pequeñas */
-        height: 20vh;
-        overflow: hidden;
-    }
-
-    article{
         height: auto;
-    }
-
-    .bajo{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .combat{
-        margin-top: 2vh;
-        height: 30vh;
-        width: 80vw;
-    }
-
-    .misiones{
-        margin-top: 2vh;
-        height: 30vh;
-        width: 80vw;
-    }
-
-    video{
-        width: 50vw;
-    }
-
-    .gif{
-        width: 50vw;
-    }
-
-    .gif2{
-        width: 50vw;
+        overflow: hidden;
     }
 
     h3{
