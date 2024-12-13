@@ -47,6 +47,9 @@ nav {
     filter: brightness(0.5) contrast(1.2);
 }
 
+#actual{
+    filter: brightness(0.5) contrast(1.2);
+}
 
 #principio {
     background-image: url(../images/fondo.jpg);

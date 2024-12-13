@@ -44,6 +44,9 @@ nav {
     filter: brightness(0.5) contrast(1.2);
 }
 
+#actual{
+    filter: brightness(0.5) contrast(1.2);
+}
 
 main {
     background-image: url(../images/dragon2.png);
@@ -105,7 +108,7 @@ table{
     box-shadow: 2px 2px 10px black;
     width: 80vw;
     background-image: url(../images/yakuza-oni.jpg);
-    background-size: 100% 100%;
+    background-size: 100% 101.5%;
 }
 
 td{

@@ -89,6 +89,10 @@ main {
     transform: scale(1.1);
 }
 
+#actual{
+    filter: brightness(0.5) contrast(1.2);
+}
+
 .modal-checkbox {
     display: none; /* Ocultar el checkbox para el modal */
 }
